@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Pranav Satya - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc6909ce8a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/namelogo.png" alt="Logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Welcome! I'm   M Pranav Satya
+                </h1>
+                <p class="hero-subtitle">Code Architect & AI Innovator</p>
+                <p class="hero-description">Crafting digital experiences that merge cutting-edge AI with elegant full-stack solutions. From intelligent chatbots to scalable web platforms, I bring ideas to life through code.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('projects')">Explore My Projects</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">Let's Collaborate</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/WhatsApp Image 2024-10-13 at 14.35.12_d3c60618.jpg" alt="Profile">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-description-container">
+                        <p class="about-description">
+                            I'm a passionate Computer Science student specializing in AI & ML at GRIET. 
+                            With a strong foundation in programming and a keen interest in emerging technologies, 
+                            I love building innovative solutions that make a difference. Currently pursuing B.Tech in 
+                            Computer Science with specialization in AI & ML, I'm actively involved in various projects 
+                            and continuously learning new technologies.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-rocket"></i>
+                                <span>Innovation Driven</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span>Problem Solver</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-users"></i>
+                                <span>Team Player</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item" data-value="8.15">
+                            <div class="stat-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <h3>8.15</h3>
+                            <p>Current CGPA</p>
+                        </div>
+                        <div class="stat-item" data-value="12">
+                            <div class="stat-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <h3>12+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item" data-value="2027">
+                            <div class="stat-icon">
+                                <i class="fa-solid fa-calendar"></i>
+                            </div>
+                            <h3>2027</h3>
+                            <p>Graduation Year</p>
+                        </div>
+                    </div>
+                    <div class="education-details">
+                        <h4><i class="fa-solid fa-book-open"></i> Education Journey</h4>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fa-solid fa-university"></i>
+                            </div>
+                            <div class="education-content">
+                                <strong>B.Tech Computer Science (AI & ML Specialization)</strong>
+                                <p>Gokaraju Rangaranju Institute of Engineering and Technology (GRIET)</p>
+                                <p>2023 - 2027 | Current CGPA: 8.15</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fa-solid fa-school"></i>
+                            </div>
+                            <div class="education-content">
+                                <strong>Intermediate (2021-2023)</strong>
+                                <p>GPA: 9.24</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <div class="education-content">
+                                <strong>10th Board</strong>
+                                <p>GPA: 8.0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="images/WhatsApp Image 2025-06-07 at 21.17.16_0f7065b7.jpg" alt="About Me">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <i class="fa-solid fa-user"></i>
+                                <span>AI & ML Enthusiast</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="Python">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <p>Advanced programming, AI/ML, Data Science</p>
+                </div>
+                <div class="skill-card" data-skill="Web Development">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p>Full-stack development, Modern frameworks</p>
+                </div>
+                <div class="skill-card" data-skill="JavaScript">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                    <p>ES6+, React, Node.js, APIs</p>
+                </div>
+                <div class="skill-card" data-skill="C#">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-hashtag"></i>
+                    </div>
+                    <h3>C#</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <p>.NET Framework, Desktop applications</p>
+                </div>
+                <div class="skill-card" data-skill="Java">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                    <p>Object-oriented programming, Spring</p>
+                </div>
+                <div class="skill-card" data-skill="AI/ML">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3>AI/ML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p>Machine Learning, Computer Vision</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Completed Projects -->
+                <div class="project-card completed">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-traffic-light"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Powered Traffic Management System</h3>
+                        <p>Developed a machine learning model to dynamically optimize traffic flow based on real-time data feeds and congestion metrics</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Real-time Data</span>
+                            <span class="tech-tag">Traffic Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card completed">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-hand-paper"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hand Sign Recognition Glove</h3>
+                        <p>Built a wearable glove that translates hand gestures into audio/text using sensor data—targeted at aiding speech-impaired individuals</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Accessibility</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card completed">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-mouse-pointer"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mouse-Controlled Servo Mechanism</h3>
+                        <p>Designed an IoT system where servo motors respond to cursor movement, enabling real-time physical interface mirroring</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Servo Motors</span>
+                            <span class="tech-tag">Real-time Control</span>
+                            <span class="tech-tag">Hardware</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card completed">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Agriculture System</h3>
+                        <p>Engineered a sensor-integrated IoT platform for automated irrigation, soil health monitoring, and yield tracking</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">Agriculture</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card completed">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-cube"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://block-chain-demonstration.netlify.app/" class="project-link" target="_blank"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Blockchain Demonstration Website</h3>
+                        <p>Created an interactive educational website explaining blockchain fundamentals like hashing, mining, and blocks</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Blockchain</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Web Development</span>
+                            <span class="tech-tag">Education</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card completed">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-file-pdf"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>PDF Question Answering Chatbot</h3>
+                        <p>Built a full-stack NLP-powered web app that answers user queries from uploaded PDFs using LangChain, OpenAI, and semantic embeddings</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">OpenAI</span>
+                            <span class="tech-tag">Full-stack</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ongoing Projects -->
+                <div class="project-card ongoing">
+                    <div class="project-image">
+                        <div class="project-placeholder ongoing-bg">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>WorkTrackWeb <span class="status-badge ongoing">Ongoing</span></h3>
+                        <p>Company Project – Quadgen: Developing a full-stack dashboard for employee attendance, service request handling, and maintenance logs using Firebase and role-based UI modules</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Full-stack</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Dashboard</span>
+                            <span class="tech-tag">Role-based UI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card ongoing">
+                    <div class="project-image">
+                        <div class="project-placeholder ongoing-bg">
+                            <i class="fa-solid fa-calculator"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.boltabacus.com" class="project-link" target="_blank"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bolt Abacus Enhancements <span class="status-badge ongoing">Ongoing</span></h3>
+                        <p>Enhancing the Bolt Abacus platform with a Virtual Abacus module, global leaderboard, AI-driven audio practice, and multiplayer gameplay</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Gamification</span>
+                            <span class="tech-tag">Multiplayer</span>
+                            <span class="tech-tag">Education</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card ongoing startup">
+                    <div class="project-image">
+                        <div class="project-placeholder startup-bg">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://zenny.ai" class="project-link" target="_blank"><i class="fa-solid fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Zenny AI – Intelligent Business Assistant <span class="status-badge startup">Startup</span></h3>
+                        <p>Leading a SaaS startup platform that automates business workflows—client onboarding, CRM integration, order tracking, and dashboard generation with natural voice/text interfaces</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SaaS</span>
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">CRM</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Upcoming Projects Section -->
+            <div class="upcoming-projects">
+                <h3 class="upcoming-title">🚀 Upcoming Projects</h3>
+                <div class="upcoming-grid">
+                    <div class="upcoming-card">
+                        <div class="upcoming-icon">
+                            <i class="fa-solid fa-glasses"></i>
+                        </div>
+                        <h4>Blind Assistive Glasses</h4>
+                        <p>Smart glasses with AI-powered navigation and object recognition for visually impaired individuals</p>
+                        <div class="upcoming-tech">
+                            <span class="tech-tag upcoming">Computer Vision</span>
+                            <span class="tech-tag upcoming">AI</span>
+                            <span class="tech-tag upcoming">IoT</span>
+        </div>
+    </div>
+
+                    <div class="upcoming-card">
+                        <div class="upcoming-icon">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <h4>Integrated Smart Farming Robot</h4>
+                        <p>Autonomous robot for precision agriculture with AI-driven crop monitoring and harvesting</p>
+                        <div class="upcoming-tech">
+                            <span class="tech-tag upcoming">Robotics</span>
+                            <span class="tech-tag upcoming">AI</span>
+                            <span class="tech-tag upcoming">Agriculture</span>
+                        </div>
+                    </div>
+                    
+                    <div class="upcoming-card">
+                        <div class="upcoming-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h4>Adaptive Learning Impact Study</h4>
+                        <p>Research project on AI-powered personalized learning systems and their educational impact</p>
+                        <div class="upcoming-tech">
+                            <span class="tech-tag upcoming">AI/ML</span>
+                            <span class="tech-tag upcoming">Education</span>
+                            <span class="tech-tag upcoming">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>pranav.satya@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Hyderabad, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 M Pranav Satya. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
